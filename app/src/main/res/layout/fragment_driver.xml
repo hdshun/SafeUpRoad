@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/driverLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".driverFragment"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="駕駛人年齡:"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/driverage"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:text="車種:"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/cartype"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:text="車齡:"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/carage"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:id="@+id/btndriverinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="確認"
+            android:textSize="25dp"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/road"
+    tools:context=".FirstActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="162dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="安心上路"
+            android:textColor="#000000"
+            android:textSize="100sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="271dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="144dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_rounde"
+            android:text="開始導航"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
